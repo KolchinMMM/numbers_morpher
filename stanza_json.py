@@ -295,24 +295,40 @@ def process_sentence(s):
     return arr
 
 
+def get_forms(sentences):
+    for sentence in sentences:
+        processed = nlp(sentence)
+        for s in processed.sentences:
+            for word in s.words:
+                if (word.upos == "NUM" or word.upos == "ADJ") and contains_num(word.text):
+                    yield process_num(word, s, word.deprel, word.text)
+
+
 nlp = stanza.Pipeline('ru', download_method=False, warnings=False)
 
-filename = "texts/better texts dump.txt"
-filename = "specific.txt"
 
-with open(filename, "r", encoding="utf-8") as file:
-    texts = file.read().split("\n")
+def main():
+    filename = "texts/better texts dump.txt"
+    filename = "specific.txt"
 
-dictionary = dict()
-start = perf_counter()
-for line in texts:
-    doc = nlp(line)
-    for sentence in doc.sentences:
-        dictionary[sentence.text] = process_sentence(sentence)
+    with open(filename, "r", encoding="utf-8") as file:
+        texts = file.read().split("\n")
 
-print(f"Time spent: {perf_counter() - start}")
-print(json.dumps(dictionary, ensure_ascii=False))
-with open("t.json", "w", encoding="utf-8") as file:
-    json.dump(dictionary, file, ensure_ascii=False, indent=4)
+    dictionary = dict()
+    start = perf_counter()
+    for line in texts:
+        doc = nlp(line)
+        for sentence in doc.sentences:
+            dictionary[sentence.text] = process_sentence(sentence)
+
+    print(f"Time spent: {perf_counter() - start}")
+    print(json.dumps(dictionary, ensure_ascii=False))
+    with open("t.json", "w", encoding="utf-8") as file:
+        json.dump(dictionary, file, ensure_ascii=False, indent=4)
+
+
+if __name__ == "__main__":
+    main()
+
 
 

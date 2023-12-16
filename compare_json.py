@@ -1,8 +1,8 @@
 import json
 
 
-filepath_right = "right.json"
-filepath = "text.json"
+filepath_right = "json/right.json"
+filepath = "json/text.json"
 
 with open(filepath_right, "r", encoding="utf-8") as file:
     correct = json.load(file)
