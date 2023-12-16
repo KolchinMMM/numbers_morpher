@@ -1,0 +1,2568 @@
+{
+    "В нынешнем перечне к этой категории относится нижняя треть списка - от Аргентины (71-е место) до Камеруна (99-е).": [
+        {
+            "word": "71-е",
+            "type": "ADJ",
+            "case": "Nom",
+            "gender": "Neut",
+            "number": "Sing",
+            "deprel": "amod"
+        },
+        {
+            "word": "99-е",
+            "type": "ADJ",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "parataxis"
+        }
+    ],
+    "Орден будет вручен Горбачеву в ближайшее воскресенье (7 ноября) президентом ФРГ Йоханнесом Рау.": [
+        {
+            "word": "7",
+            "type": "ADJ",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "parataxis"
+        }
+    ],
+    "С раннего утра 14 сентября огонь достиг значительного напряжения.": [
+        {
+            "word": "14",
+            "type": "ADJ",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "obl"
+        }
+    ],
+    "Все они были отлиты в память о чудесном спасении императора, на которого 17 октября 1888 года было совершено покушение.": [
+        {
+            "word": "17",
+            "type": "ADJ",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "obl"
+        },
+        {
+            "word": "1888",
+            "type": "ADJ",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "amod"
+        }
+    ],
+    "1 сентября по церковному календарю отмечается новый год и возвращение колоколов стало \"неожиданным подарком\", сказал он.": [
+        {
+            "word": "1",
+            "type": "ADJ",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "obl"
+        }
+    ],
+    "На Манежной площади, где 31 августа прогремел взрыв, снова произошел инцидент.": [
+        {
+            "word": "31",
+            "type": "ADJ",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "obl"
+        }
+    ],
+    "72 человека погибли и около полутора тысяч получили ранения в результате землетрясения, произошедшего 7 сентября в Афинах.": [
+        {
+            "word": "72",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod"
+        },
+        {
+            "word": "7",
+            "type": "ADJ",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "obl"
+        }
+    ],
+    "9 сентября Борис  Березовский был госпитализирован  в  одну  из подмосковных клиник.": [
+        {
+            "word": "9",
+            "type": "ADJ",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "obl"
+        }
+    ],
+    "13 сентября на северо-западе Турции случилось землетрясение силой 5,8 балла по шкале Рихтера.": [
+        {
+            "word": "13",
+            "type": "ADJ",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "obl"
+        },
+        {
+            "word": "5,8",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod"
+        }
+    ],
+    "22 сентября на Петровке, 38 прошел брифинг, посвященный вопросам регистрации граждан в Москве.": [
+        {
+            "word": "22",
+            "type": "ADJ",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nmod"
+        },
+        {
+            "word": "38",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "conj",
+            "flag": "1"
+        }
+    ],
+    "Поздно вечером 14 октября на Кутузовском проспекте Москвы произошло очередное заказное убийство.": [
+        {
+            "word": "14",
+            "type": "ADJ",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nmod"
+        }
+    ],
+    "Утром 22 октября в Москве, в одном из зданий Министерства РФ по атомной энергии в Старомонетном переулке, 26, вспыхнул пожар.": [
+        {
+            "word": "22",
+            "type": "ADJ",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nmod"
+        },
+        {
+            "word": "26",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "conj",
+            "flag": "1"
+        }
+    ],
+    "По данным обвинения, в 70-80-е годы Бассон занимался разработкой парализующих и смертельных ядов.": [
+        {
+            "word": "70",
+            "type": "ADJ",
+            "case": "Acc",
+            "gender": "Masc",
+            "number": "Plur",
+            "deprel": "nmod"
+        },
+        {
+            "word": "80-е",
+            "type": "ADJ",
+            "case": "Acc",
+            "gender": "Masc",
+            "number": "Plur",
+            "deprel": "nmod"
+        }
+    ],
+    "По ее данным, половина флотских хранилищ боеприпасов и взрывчатки - деревянные и построены в 40-50-х годах.": [
+        {
+            "word": "40",
+            "type": "ADJ",
+            "case": "Loc",
+            "gender": "Masc",
+            "number": "Plur",
+            "deprel": "nmod"
+        },
+        {
+            "word": "50-х",
+            "type": "ADJ",
+            "case": "Loc",
+            "gender": "Masc",
+            "number": "Plur",
+            "deprel": "nmod"
+        }
+    ],
+    "10-12 декабря пройдетсъезд движения \"Духовное наследие\", а 12-13, по его сведениям,- съезд КПРФ.": [
+        {
+            "word": "10",
+            "type": "ADJ",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nmod"
+        },
+        {
+            "word": "12",
+            "type": "ADJ",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nmod"
+        },
+        {
+            "word": "12",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "conj",
+            "flag": "1"
+        },
+        {
+            "word": "13",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nmod",
+            "flag": "1"
+        }
+    ],
+    "В среду, 17 ноября, в Гудермес из Моздока впервые отправится железнодорожный эшелон с гуманитарным грузом и углем.": [
+        {
+            "word": "17",
+            "type": "ADJ",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nmod"
+        }
+    ],
+    "В ночь на 26 ноября Грозный подвергся самому разрушительному со времени начала боевых действий массированному обстрелу.": [
+        {
+            "word": "26",
+            "type": "ADJ",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nmod"
+        }
+    ],
+    "10 декабря - \"большой нобелевский день\".": [
+        {
+            "word": "10",
+            "type": "ADJ",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nmod"
+        }
+    ],
+    "Имена задержанных - 32-летний Тимур Дахкильгов и его тесть, 40-летний Бекмарс Саутиев.": [
+        {
+            "word": "32-летний",
+            "type": "ADJ",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "amod"
+        },
+        {
+            "word": "40-летний",
+            "type": "ADJ",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "amod"
+        }
+    ],
+    "История началась с обращения в ФБР российского Министерства внутренних дел в августе 1998 года.": [
+        {
+            "word": "1998",
+            "type": "ADJ",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "amod"
+        }
+    ],
+    "Раиса Горбачева родилась 5 января 1932 г. в городе Рубцовск Алтайского края.": [
+        {
+            "word": "5",
+            "type": "ADJ",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "obl"
+        },
+        {
+            "word": "1932",
+            "type": "ADJ",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "amod"
+        }
+    ],
+    "В 1957 г. закончила философский факультет Московского государственного университета им. М.В. Ломоносова.": [
+        {
+            "word": "1957",
+            "type": "ADJ",
+            "case": "Loc",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "amod"
+        }
+    ],
+    "Одного из туристов - 40-летнего мужчину в понедельник пришлось эвакуировать с помощью вертолета - ему стало плохо с сердцем.": [
+        {
+            "word": "40-летнего",
+            "type": "ADJ",
+            "case": "Acc",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "amod"
+        }
+    ],
+    "\"Бригада\" попала в поле зренияFBI еще осенью 1997 года, когда некоторые из жертв вымогательствобратились к властям за помощью.": [
+        {
+            "word": "1997",
+            "type": "ADJ",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "amod"
+        }
+    ],
+    "Он лишился документов еще в 1988 году - по его словам, они были украдены в Париже.": [
+        {
+            "word": "1988",
+            "type": "ADJ",
+            "case": "Loc",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "amod"
+        }
+    ],
+    "В 1974 году он уехал в Великобританию.": [
+        {
+            "word": "1974",
+            "type": "ADJ",
+            "case": "Loc",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "amod"
+        }
+    ],
+    "На Тайване произошло сильнейшее землетрясение - силой почти 8 баллов по 12-балльной шкале Рихтера.": [
+        {
+            "word": "8",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod"
+        },
+        {
+            "word": "12-балльной",
+            "type": "ADJ",
+            "case": "Dat",
+            "gender": "Fem",
+            "number": "Sing",
+            "deprel": "amod"
+        }
+    ],
+    "Значительный ущербпричинен самому Тайбэю, где, в частности, рухнула наполненнаяпостояльцами 12-этажная гостиница.": [
+        {
+            "word": "12-этажная",
+            "type": "ADJ",
+            "case": "Nom",
+            "gender": "Fem",
+            "number": "Sing",
+            "deprel": "amod"
+        }
+    ],
+    "Следующий участок газопровода будет пущен в 2000 году.": [
+        {
+            "word": "2000",
+            "type": "ADJ",
+            "case": "Loc",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "amod"
+        }
+    ],
+    "Нынешняя ситуация все больше напоминает 1994 год.": [
+        {
+            "word": "1994",
+            "type": "ADJ",
+            "case": "Acc",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "amod"
+        }
+    ],
+    "Настоящий Мухит Лайпанов погиб в феврале 1999 года в Ставропольском крае в результате ДТП.": [
+        {
+            "word": "1999",
+            "type": "ADJ",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "amod"
+        }
+    ],
+    "По сведениям МВД, под фамилией Лайпанова скрывался 30-летний уроженец Карачаевска  Ачемез Шагабанович Гочияев.": [
+        {
+            "word": "30-летний",
+            "type": "ADJ",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "amod"
+        }
+    ],
+    "Кириенко сказал, что 23-е - день рождения всех женщин его семьи.": [
+        {
+            "word": "23-е",
+            "type": "ADJ",
+            "case": "Nom",
+            "gender": "Neut",
+            "number": "Sing",
+            "deprel": "nsubj"
+        }
+    ],
+    "14 января - начало очередного этапа президентской избирательной кампании.": [
+        {
+            "word": "14",
+            "type": "ADJ",
+            "case": "Nom",
+            "gender": "Neut",
+            "number": "Sing",
+            "deprel": "nsubj"
+        }
+    ],
+    "Дебаты на РТР тоже 20-минутные и тоже по \"тройкам\".": [
+        {
+            "word": "20-минутные",
+            "type": "ADJ",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Plur",
+            "deprel": "root"
+        }
+    ],
+    "4 декабря, уволился по собственному желанию управляющий делами администрации белорусского президента Иван Титенков.": [
+        {
+            "word": "4",
+            "type": "ADJ",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "root"
+        }
+    ],
+    "29   декабря,   усыпив  бдительность  охранника,   Л.Мзокова сбежала.": [
+        {
+            "word": "29",
+            "type": "ADJ",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "obl"
+        }
+    ],
+    "\"Политические тяжеловесы\" - ОВР и КПРФ - попали ближе к концу списка, на 19-е и 20-е места.": [
+        {
+            "word": "19-е",
+            "type": "ADJ",
+            "case": "Acc",
+            "gender": "Neut",
+            "number": "Sing",
+            "deprel": "amod"
+        },
+        {
+            "word": "20-е",
+            "type": "ADJ",
+            "case": "Acc",
+            "gender": "Masc",
+            "number": "Plur",
+            "deprel": "conj"
+        }
+    ],
+    "8 и 9 декабря подразделения федеральных сил в районе Алхан-Юрта  не  располагались.": [
+        {
+            "word": "8",
+            "type": "NUM",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "obl"
+        },
+        {
+            "word": "9",
+            "type": "NUM",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "conj"
+        }
+    ],
+    "Оно покажет 110-ю и 111-ю (брейк) модели ВАЗа и \"Ниву\" 21214.": [
+        {
+            "word": "110-ю",
+            "type": "ADJ",
+            "case": "Acc",
+            "gender": "Fem",
+            "number": "Sing",
+            "deprel": "amod"
+        },
+        {
+            "word": "111-ю",
+            "type": "ADJ",
+            "case": "Acc",
+            "gender": "Fem",
+            "number": "Sing",
+            "deprel": "conj"
+        },
+        {
+            "word": "21214",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod:entity"
+        }
+    ],
+    "В 1970-х и 80-х годах Аркан обвинялся в организации ряда ограблений банков в Западной Европе.": [
+        {
+            "word": "1970-х",
+            "type": "ADJ",
+            "case": "Loc",
+            "gender": "Masc",
+            "number": "Plur",
+            "deprel": "amod"
+        },
+        {
+            "word": "80-х",
+            "type": "ADJ",
+            "case": "Loc",
+            "gender": "Masc",
+            "number": "Plur",
+            "deprel": "conj"
+        }
+    ],
+    "Отряды чеченской милиции выбили боевиков из 1-го, 3-го и 4-го микрорайонов.": [
+        {
+            "word": "1-го",
+            "type": "ADJ",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "amod"
+        },
+        {
+            "word": "3-го",
+            "type": "ADJ",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "conj"
+        },
+        {
+            "word": "4-го",
+            "type": "ADJ",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "conj"
+        }
+    ],
+    "В основном это 100- или 50-долларовые купюры.": [
+        {
+            "word": "100-",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod"
+        },
+        {
+            "word": "50-долларовые",
+            "type": "ADJ",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Plur",
+            "deprel": "conj"
+        }
+    ],
+    "Так происходило в 70-е и 80-е годы в Афганистане, теперь основная угроза исходит именно из Чечни.": [
+        {
+            "word": "70-е",
+            "type": "ADJ",
+            "case": "Acc",
+            "gender": "Masc",
+            "number": "Plur",
+            "deprel": "amod"
+        },
+        {
+            "word": "80-е",
+            "type": "ADJ",
+            "case": "Acc",
+            "gender": "Masc",
+            "number": "Plur",
+            "deprel": "conj"
+        }
+    ],
+    "В среду в столице Германии открылся юбилейный, 50-ый Берлинский международный кинофестиваль (\"Берлинале\").": [
+        {
+            "word": "50-ый",
+            "type": "ADJ",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "conj"
+        }
+    ],
+    "Два реакторных блока АЭС \"Библис\" находятся в эксплуатации с 1926 и 1924 года.": [
+        {
+            "word": "1926",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nmod",
+            "flag": "1"
+        },
+        {
+            "word": "1924",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "conj",
+            "flag": "1"
+        }
+    ],
+    "По сообщению ВВС, погиб один человек и около 70 ранены.": [
+        {
+            "word": "70",
+            "type": "NUM",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nsubj:pass"
+        }
+    ],
+    "В результате \"ошибочной\" натовской бомбардировки в мае этого года погибло три человека, 27 было ранено.": [
+        {
+            "word": "27",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nsubj:pass"
+        }
+    ],
+    "Всего в результате взрыва пострадал 41 человек, 24 из них госпитализировано.": [
+        {
+            "word": "41",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod"
+        },
+        {
+            "word": "24",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nsubj:pass"
+        }
+    ],
+    "Потери федеральных сил за минувшие сутки: 1 человек убит и 27 ранены.": [
+        {
+            "word": "1",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod"
+        },
+        {
+            "word": "27",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nsubj:pass"
+        }
+    ],
+    "Вслед за первым подземным толчком были зафиксированы еще 20, которые сейсмологи назвалиостаточными.": [
+        {
+            "word": "20",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nsubj:pass"
+        }
+    ],
+    "1 из фигурантов дел, вице-президент фонда Евгений Маленкин, был объявлен 12 ноября в федеральный розыск.": [
+        {
+            "word": "1",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nsubj:pass"
+        },
+        {
+            "word": "12",
+            "type": "NUM",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "obl"
+        }
+    ],
+    "В ответ на угрозы Бородкин обратился в полицию, и в феврале 2010 года все 3 были арестованы.": [
+        {
+            "word": "2010",
+            "type": "ADJ",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "amod"
+        },
+        {
+            "word": "3",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nsubj:pass"
+        }
+    ],
+    "Взрыв, в результате которого погибли семь человек и 15 были ранены, осуществил террорист-смертник.": [
+        {
+            "word": "15",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nsubj:pass"
+        }
+    ],
+    "Способный выполнять миллиард операций в секунду, G4 вдвое обгоняет по быстродействию интеловский Pentium III.": [],
+    "Действию нового вируса подвержены компьютеры с ОС Windows 95, Windows 98 и Windows NT.": [
+        {
+            "word": "95",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "appos"
+        },
+        {
+            "word": "98",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "flat:foreign",
+            "flag": "1"
+        }
+    ],
+    "В результате 6 человек получили ножевые ранения, в том числе двое ранены тяжело: один в сердце, другой в позвоночник.": [
+        {
+            "word": "6",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod"
+        }
+    ],
+    "Срок окончания уборки мусора - 15 час 7 сентября, до пятницы - срок сооружения дополнительных выгребных ям - 10 сентября.": [
+        {
+            "word": "15",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod"
+        },
+        {
+            "word": "7",
+            "type": "ADJ",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nmod"
+        },
+        {
+            "word": "10",
+            "type": "ADJ",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "parataxis"
+        }
+    ],
+    "Одна из них наступает завтра - 9 сентября (9/9/99).": [
+        {
+            "word": "9",
+            "type": "ADJ",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "parataxis"
+        },
+        {
+            "word": "9/9",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "parataxis"
+        },
+        {
+            "word": "99",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nmod"
+        }
+    ],
+    "17 лет (1938-1955) провел он в советских концентрационных лагерях.": [
+        {
+            "word": "17",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod"
+        },
+        {
+            "word": "1938",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "parataxis"
+        },
+        {
+            "word": "1955",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nmod"
+        }
+    ],
+    "Там счет - 3:2 в пользу французов.": [
+        {
+            "word": "3",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "parataxis"
+        },
+        {
+            "word": "2",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nmod"
+        }
+    ],
+    "????????": [],
+    "Второй тур должен состояться через три недели - 25 июня.": [
+        {
+            "word": "25",
+            "type": "ADJ",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "parataxis"
+        }
+    ],
+    "Средняя пенсия равна 23 долларам, а минимальная - 12.": [
+        {
+            "word": "23",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod"
+        },
+        {
+            "word": "12",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "orphan",
+            "flag": "1"
+        }
+    ],
+    "В следующем году планируется провести уже четыре-пять коммерческих запусков, а в 2001 - до шести.": [
+        {
+            "word": "2001",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "orphan",
+            "flag": "1"
+        }
+    ],
+    "За то, чтобы обсудить этот вопрос, высказались 61 из 104 присутствующих, против - 28, воздержались 6.": [
+        {
+            "word": "61",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": -1,
+            "number": "Plur",
+            "deprel": "nsubj"
+        },
+        {
+            "word": "104",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod"
+        },
+        {
+            "word": "28",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "orphan",
+            "flag": "1"
+        },
+        {
+            "word": "6",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": -1,
+            "number": "Plur",
+            "deprel": "nsubj"
+        }
+    ],
+    "Россия была охвачена 13-ю, а, например, Азербайджан - пятью.": [
+        {
+            "word": "13-ю",
+            "type": "ADJ",
+            "case": "Acc",
+            "gender": "Fem",
+            "number": "Sing",
+            "deprel": "obl"
+        }
+    ],
+    "Это 89 зарубежная поездка Иоанна Павла II.": [
+        {
+            "word": "89",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod"
+        }
+    ],
+    "Постановление подписано премьер-министром России Владимиром Путиным.": [],
+    "12 июля 1999 года N 798": [
+        {
+            "word": "12",
+            "type": "ADJ",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "obl"
+        },
+        {
+            "word": "1999",
+            "type": "ADJ",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "amod"
+        },
+        {
+            "word": "798",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod:entity"
+        }
+    ],
+    "Лидер \"Союза правых сил\" Кириенко С. В. 16.11.1999": [
+        {
+            "word": "16.11.1999",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "flat:name",
+            "flag": "1"
+        }
+    ],
+    "Как утверждает Intel, их новый чип будет иметь частоту как минимум 700 Mhz.": [
+        {
+            "word": "700",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nmod",
+            "flag": "1"
+        }
+    ],
+    "Хроника регистрации предвыборных блоков такова: 18 августа- \"Голос России\", включающий \"Союз \"Живое кольцо\".": [
+        {
+            "word": "18",
+            "type": "ADJ",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nmod"
+        }
+    ],
+    "Она погибла вавтомобильной катастрофе в парижском туннеле в ранние утренниечасы 31 августа 1997 года.": [
+        {
+            "word": "31",
+            "type": "ADJ",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nmod"
+        },
+        {
+            "word": "1997",
+            "type": "ADJ",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "amod"
+        }
+    ],
+    "Ожидается, что в ближайшие часы 300-350 сотрудников ООН вылетят в Австралию.": [
+        {
+            "word": "300",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod"
+        },
+        {
+            "word": "350",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nmod"
+        }
+    ],
+    "По мнению председателя облизбиркома, список претендентов увеличится вближайшее время еще на 4-5 человек.": [
+        {
+            "word": "4",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod"
+        },
+        {
+            "word": "5",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nmod"
+        }
+    ],
+    "В городе запрещено передвижение гражданских лиц и транспорта с 22.00 вечера до 6.00 утра.": [
+        {
+            "word": "22.00",
+            "type": "ADJ",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nmod"
+        },
+        {
+            "word": "6.00",
+            "type": "ADJ",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nmod"
+        }
+    ],
+    "Взрыв дома по улице Гурьянова, 19 эквивалентен взрыву 300-400 кг тротила.": [
+        {
+            "word": "19",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "conj",
+            "flag": "1"
+        },
+        {
+            "word": "300",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod"
+        },
+        {
+            "word": "400",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nmod"
+        }
+    ],
+    "Железнодорожники  рассчитывают, что к концу года загрузка электричек на этом направлении увеличится в 5-6 раз.": [
+        {
+            "word": "5",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod"
+        },
+        {
+            "word": "6",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nmod"
+        }
+    ],
+    "В 17:30 в РБК позвонил неизвестный, сообщивший о взрывном устройстве в офисе банка.": [
+        {
+            "word": "17",
+            "type": "NUM",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "obl"
+        },
+        {
+            "word": "30",
+            "type": "NUM",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nmod"
+        }
+    ],
+    "???????": [],
+    "Телефон: 913-56-53; факс: 913-96-99.": [
+        {
+            "word": "913",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "parataxis"
+        },
+        {
+            "word": "56",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nmod"
+        },
+        {
+            "word": "53",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nmod"
+        },
+        {
+            "word": "913",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "parataxis"
+        },
+        {
+            "word": "96",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nmod"
+        },
+        {
+            "word": "99",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nmod"
+        }
+    ],
+    "С 1 сентября на всей территории России вводится новая форма таможенной декларации для физических лиц.": [
+        {
+            "word": "1",
+            "type": "NUM",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "obl"
+        }
+    ],
+    "Самолеты НАТО разбомбили 7 мая посольство Китая во время налета на Югославию.": [
+        {
+            "word": "7",
+            "type": "NUM",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "obl"
+        }
+    ],
+    "Это демократический блок.": [],
+    "26 августа зарегистрировались \"Коммунисты, трудящиеся России- за Советский Союз\"": [
+        {
+            "word": "26",
+            "type": "ADJ",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "obl"
+        }
+    ],
+    "Как сообщает \"Интерфакс\", телерадиокомпания \"Петербург\" возобновляет свои передачи с 18.00 в пятницу.": [
+        {
+            "word": "18.00",
+            "type": "NUM",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "obl"
+        }
+    ],
+    "С 0 часов 2 сентября приостановлено вещание телерадиокомпании \"Петербург\".": [
+        {
+            "word": "0",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod"
+        },
+        {
+            "word": "2",
+            "type": "NUM",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "obl"
+        }
+    ],
+    "Таких фирм снами сотрудничает около 60-ти\", - сказал Бородин.": [
+        {
+            "word": "60-ти",
+            "type": "NUM",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "obl"
+        }
+    ],
+    "Тем не  менее в  Гостелекоме считают, что \"особых сенсаций 9 сентября не будет\".": [
+        {
+            "word": "9",
+            "type": "NUM",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "obl"
+        }
+    ],
+    "Затем эта цифра снизилась до 400.": [
+        {
+            "word": "400",
+            "type": "NUM",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "obl"
+        }
+    ],
+    "Правила начинают действовать с 16 сентября.": [
+        {
+            "word": "16",
+            "type": "NUM",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "obl"
+        }
+    ],
+    "По крайней мере семь из них погибли и более 420 получили ранения в прибрежном городе Голчук.": [
+        {
+            "word": "420",
+            "type": "NUM",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "obl"
+        }
+    ],
+    "Второй тур вакцинации намечно провести 15-16 октября.": [
+        {
+            "word": "15",
+            "type": "NUM",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "obl"
+        },
+        {
+            "word": "16",
+            "type": "NUM",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nmod"
+        }
+    ],
+    "На этих маршрутах используются ближнемагистральные самолеты Ту-134, Ту-154 и \"Боинг-737\".": [
+        {
+            "word": "134",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "appos"
+        },
+        {
+            "word": "154",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "appos"
+        },
+        {
+            "word": "737",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod:entity"
+        }
+    ],
+    "В Астане создана специальная группа для расследования обстоятельств поставки за рубеж самолетов МиГ-21.": [
+        {
+            "word": "21",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "appos"
+        }
+    ],
+    "Госпиталь представляет собой уникальное мобильное медицинское учреждение, развернутое на борту самолета Lockheed L-1011-50.": [
+        {
+            "word": "1011",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "appos"
+        },
+        {
+            "word": "50",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "appos"
+        }
+    ],
+    "По оценкам независимых экспертов, Ка-50-2 - первоесовместное производство авиастроителей Востока и Запада.": [
+        {
+            "word": "50",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "appos"
+        },
+        {
+            "word": "2",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "appos"
+        }
+    ],
+    "28 сентября обнаружилась очередная брешь в защите броузера Microsoft Internet Explorer 5.0.": [
+        {
+            "word": "28",
+            "type": "ADJ",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "obl"
+        },
+        {
+            "word": "0",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "appos"
+        }
+    ],
+    "Правительство Индии запретило показ программ российского канала \"ТВ-6\".": [
+        {
+            "word": "6",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "appos"
+        }
+    ],
+    "В настоящее время Борис Ельцин находится в резиденции Горки-9.": [
+        {
+            "word": "9",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "appos"
+        }
+    ],
+    "Размер нашивки - 6 на 12 дюймов, или примерно 15 на 30 сантиметров.": [
+        {
+            "word": "6",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "root",
+            "flag": "1"
+        },
+        {
+            "word": "12",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod"
+        },
+        {
+            "word": "15",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "conj",
+            "flag": "1"
+        },
+        {
+            "word": "30",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod"
+        }
+    ],
+    "Всего за последние 400 лет извержений Мэйона было 45.": [
+        {
+            "word": "400",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod"
+        },
+        {
+            "word": "45",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "root",
+            "flag": "1"
+        }
+    ],
+    "По словам охранника, сперва нападавших было около 50, затем их число возросло до 250.": [
+        {
+            "word": "50",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "root",
+            "flag": "1"
+        },
+        {
+            "word": "250",
+            "type": "NUM",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "obl"
+        }
+    ],
+    "В 1992 году Лев Эммануилович был одним из основных свидетелей в Конституционном суде по делу КПСС.": [
+        {
+            "word": "1992",
+            "type": "ADJ",
+            "case": "Loc",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "amod"
+        }
+    ],
+    "Таких кандидатов, чьи сведения признаны недостоверными, всего 11.": [
+        {
+            "word": "11",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "root",
+            "flag": "1"
+        }
+    ],
+    "Дата начала их размещения - 24 ноября; окончание размещения - 14 декабря этого года.": [
+        {
+            "word": "24",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "root",
+            "flag": "1"
+        },
+        {
+            "word": "14",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "orphan",
+            "flag": "1"
+        }
+    ],
+    "Министр обороны России Игорь Сергеев также был одним из первых, кто проголосовал 19 декабря в Москве.": [
+        {
+            "word": "19",
+            "type": "NUM",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "obl"
+        }
+    ],
+    "Только в 1993 году таких захватов было четыре.": [
+        {
+            "word": "1993",
+            "type": "ADJ",
+            "case": "Loc",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "amod"
+        }
+    ],
+    "Этна - самый высокий в Европе действующий вулкан, его высота превышает 3 300 метров.": [
+        {
+            "word": "3",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "compound"
+        },
+        {
+            "word": "300",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod"
+        }
+    ],
+    "Второй номер в списке КПРФ, спикер Госдумы Геннадий Селезнев, в общей сложности получил в 1998 году доход 290 489 рублей.": [
+        {
+            "word": "1998",
+            "type": "ADJ",
+            "case": "Loc",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "amod"
+        },
+        {
+            "word": "290",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "compound"
+        },
+        {
+            "word": "489",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod"
+        }
+    ],
+    "Наступление 2000 года в таких таймерах будет обозначено как \"00\", что может привести к сбою.": [
+        {
+            "word": "2000",
+            "type": "ADJ",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "amod"
+        },
+        {
+            "word": "00",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": -1,
+            "number": "Sing",
+            "deprel": "advcl"
+        }
+    ],
+    "В СССР было создано два самолета, однако уцелел только один, созданный в 1991 году.": [
+        {
+            "word": "1991",
+            "type": "ADJ",
+            "case": "Loc",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "amod"
+        }
+    ],
+    "Его предшественник, Анвар Садат, был убит в 1981 исламистами после подписания мирного договора с Израилем.": [
+        {
+            "word": "1981",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "amod",
+            "flag": "1"
+        }
+    ],
+    "Генерал обвиняется Испанией в 34 случаях пыток испанских граждан в Чили за 17 лет его диктатуры с 1973 по 1990 годы.": [
+        {
+            "word": "34",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod"
+        },
+        {
+            "word": "17",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod"
+        },
+        {
+            "word": "1973",
+            "type": "ADJ",
+            "case": "Acc",
+            "gender": "Masc",
+            "number": "Plur",
+            "deprel": "nmod"
+        },
+        {
+            "word": "1990",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "amod",
+            "flag": "1"
+        }
+    ],
+    "19 домов разрушены, многие районы города остались без электричества.": [
+        {
+            "word": "19",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod"
+        }
+    ],
+    "Буре выступал в НХЛ с 1991 по 2003 годы за \"Ванкувер\", \"Флориду Пантерс\" и \"Нью-Йорк Рейнджерс\".": [
+        {
+            "word": "1991",
+            "type": "NUM",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "obl"
+        },
+        {
+            "word": "2003",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "amod",
+            "flag": "1"
+        }
+    ],
+    "В 2007 году и в 2011 годах избирался в Госдуму от московской региональной группы.": [
+        {
+            "word": "2007",
+            "type": "ADJ",
+            "case": "Loc",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "amod"
+        },
+        {
+            "word": "2011",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "amod",
+            "flag": "1"
+        }
+    ],
+    "14 ноября истек срок, в течение которого многие сотрудники социальной сети не имели права продавать свои акции.": [
+        {
+            "word": "14",
+            "type": "ADJ",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "obl"
+        }
+    ],
+    "В составе сборной России Бирюков в 2008 и 2012 году становился чемпионом мира.": [
+        {
+            "word": "2008",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "amod",
+            "flag": "1"
+        },
+        {
+            "word": "2012",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "conj",
+            "flag": "1"
+        }
+    ],
+    "С неурожаем в 2012 году столкнулись многие страны, в том числе и Россия.": [
+        {
+            "word": "2012",
+            "type": "ADJ",
+            "case": "Loc",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "amod"
+        }
+    ],
+    "Презентации этих устройств состоялись в 1984, 1988 и 2001 годах.": [
+        {
+            "word": "1984",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "amod",
+            "flag": "1"
+        },
+        {
+            "word": "1988",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "conj",
+            "flag": "1"
+        },
+        {
+            "word": "2001",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "conj",
+            "flag": "1"
+        }
+    ],
+    "Синофски ушел из Microsoft вскоре после запуска новой операционной системы Windows 8, которая вышла 26 октября.": [
+        {
+            "word": "8",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod:entity"
+        },
+        {
+            "word": "26",
+            "type": "NUM",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "obl"
+        }
+    ],
+    "Как отмечает CNN, критики и пользователи восприняли Windows 8 скорее положительно.": [
+        {
+            "word": "8",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod:entity"
+        }
+    ],
+    "Для определения победителя командам пришлось сыграть три овертайма, и \"Юта\" в итоге взяла верх со счетом 140:133.": [
+        {
+            "word": "140",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod:entity"
+        },
+        {
+            "word": "133",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nmod"
+        }
+    ],
+    "Так, оно создавало кат-сцены для второй части, а также разрабатывало мультиплеер для Mass Effect 3.": [
+        {
+            "word": "3",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod:entity"
+        }
+    ],
+    "Движок Frostbite 2.0 был разработан студией DICE.": [
+        {
+            "word": "2.0",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod:entity"
+        }
+    ],
+    "Cocoon 1 можно оборудовать дополнительными модулями, например, шкафчиком, выдвижными ящиками и мини-кухней с раковиной.": [
+        {
+            "word": "1",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod:entity"
+        }
+    ],
+    "Наиболее известными финансовыми пирамидами в России в последние годы стали проекты Сергея Мавроди \"МММ-2011\" и \"МММ-2012\".": [
+        {
+            "word": "2011",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod:entity"
+        },
+        {
+            "word": "2012",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod:entity"
+        }
+    ],
+    "В финальном матче Джокович обыграл швейцарца Роджера Федерера в двух сетах со счетом 7:6, 7:5.": [
+        {
+            "word": "7",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod:entity"
+        },
+        {
+            "word": "6",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nmod"
+        },
+        {
+            "word": "7",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "conj"
+        },
+        {
+            "word": "5",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nmod"
+        }
+    ],
+    "Форсталла, по информации издания, уволили за плохое качество карт в iOS 6.": [
+        {
+            "word": "6",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod:entity"
+        }
+    ],
+    "По сведениям ресурса, его обвиняют в государственной измене (по статье 356 Уголовного кодекса республики).": [
+        {
+            "word": "356",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod:entity"
+        }
+    ],
+    "Теперь Адам Маккей рассказал о том, что в \"Телеведущего 2\" включат музыкальные номера.": [
+        {
+            "word": "2",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod:entity"
+        }
+    ],
+    "Сначала игра выйдет на Xbox 360 и PS3, а ее релиз на PC состоится некоторое время спустя.": [
+        {
+            "word": "360",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod:entity"
+        }
+    ],
+    "Недостаток нефтепродуктов связан с введением с Нового года экологического стандарта, запрещающего оборот бензина \"Евро-2\".": [
+        {
+            "word": "2",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod:entity"
+        }
+    ],
+    "Первым имя получил Ту-160 с номером 7-01 - \"Михаил Громов\".": [
+        {
+            "word": "160",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "appos"
+        },
+        {
+            "word": "7",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod:entity"
+        },
+        {
+            "word": "01",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nmod"
+        }
+    ],
+    "Россияне уступили команде, составленной из игроков юниорской лиги Онтарио со счетом 1:2 (0:1, 0:0, 1:1).": [
+        {
+            "word": "1",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod:entity"
+        },
+        {
+            "word": "2",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nmod"
+        },
+        {
+            "word": "0",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "parataxis"
+        },
+        {
+            "word": "1",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nmod"
+        },
+        {
+            "word": "0",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "conj"
+        },
+        {
+            "word": "0",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nmod"
+        },
+        {
+            "word": "1",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "conj"
+        },
+        {
+            "word": "1",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nmod"
+        }
+    ],
+    "В конкурсе приняли участие три организации, готовые разработать рекламу за 21,5, 7,4 и 22 миллиона рублей.": [
+        {
+            "word": "21,5",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod"
+        },
+        {
+            "word": "7,4",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "conj"
+        },
+        {
+            "word": "22",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "conj"
+        }
+    ],
+    "Решение по этому ходатайству, как ожидается, будет принято сегодня, 13 ноября.": [
+        {
+            "word": "13",
+            "type": "NUM",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "conj"
+        }
+    ],
+    "Снижение предложения за год было почти в 2 раза больше - 24 и 23 процента соответственно.": [
+        {
+            "word": "2",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod"
+        },
+        {
+            "word": "24",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod"
+        },
+        {
+            "word": "23",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "conj"
+        }
+    ],
+    "У Роджера Федерера в активе были шесть титулов победителя Итогового турнира, в том числе, он выигрывал его в 2010 и 2011 годах.": [
+        {
+            "word": "2010",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nmod",
+            "flag": "1"
+        },
+        {
+            "word": "2011",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "conj",
+            "flag": "1"
+        }
+    ],
+    "В шорт-листы шести основных и четырех специальных номинаций попали 109 участников.": [
+        {
+            "word": "109",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod"
+        }
+    ],
+    "Сегодня, 13 ноября, с задержанным должен встретиться адвокат.": [
+        {
+            "word": "13",
+            "type": "NUM",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "conj"
+        }
+    ],
+    "Его соперники Вадим Булавинов и Евгений Федоров набрали 18 и 9 голосов соответственно.": [
+        {
+            "word": "18",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod"
+        },
+        {
+            "word": "9",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "conj"
+        }
+    ],
+    "Похищение произошло еще вечером в пятницу, 9 ноября, когда Юнуса возвращался домой.": [
+        {
+            "word": "9",
+            "type": "NUM",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "conj"
+        }
+    ],
+    "225 членов Рады были избраны по партийным спискам, еще 220 - по одномандатным округам.": [
+        {
+            "word": "225",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod"
+        },
+        {
+            "word": "220",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Plur",
+            "deprel": "nsubj"
+        }
+    ],
+    "Из пятисот вошедших в рейтинг систем 23 имеют производительность выше 1 петафлопс.": [
+        {
+            "word": "23",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": -1,
+            "number": "Plur",
+            "deprel": "nsubj"
+        },
+        {
+            "word": "1",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod"
+        }
+    ],
+    "Как сообщалось ранее, 185 из них приходится на Москву.": [
+        {
+            "word": "185",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": -1,
+            "number": "Sing",
+            "deprel": "nsubj"
+        }
+    ],
+    "На момент написания заметки 1 из версий ролика собрала около 20 тысяч просмотров.": [
+        {
+            "word": "1",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Fem",
+            "number": "Sing",
+            "deprel": "nsubj"
+        },
+        {
+            "word": "20",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod"
+        }
+    ],
+    "В результате аварии погибли три человека, еще 21 пострадал.": [
+        {
+            "word": "21",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nsubj"
+        }
+    ],
+    "Позднее 1 из них, 30-летний Никита Стрельников, скончался в больнице.": [
+        {
+            "word": "1",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nsubj"
+        },
+        {
+            "word": "30-летний",
+            "type": "ADJ",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "amod"
+        }
+    ],
+    "Лишь 68 из них не нашли своего покупателя.": [
+        {
+            "word": "68",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": -1,
+            "number": "Plur",
+            "deprel": "nsubj"
+        }
+    ],
+    "1 из арестованных по делу о нападении на посольство США в Тунисе 15 ноября скончался в результате голодовки.": [
+        {
+            "word": "1",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nsubj"
+        },
+        {
+            "word": "15",
+            "type": "NUM",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "obl"
+        }
+    ],
+    "Россия планировала купить 60 таких самолетов, еще 3 - Украина.": [
+        {
+            "word": "60",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod"
+        },
+        {
+            "word": "3",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Fem",
+            "number": "Sing",
+            "deprel": "nsubj"
+        }
+    ],
+    "Общая стоимость жилья составила 2,266 миллиона рублей, первоначальный взнос по кредиту  - 50 процентов.": [
+        {
+            "word": "2,266",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod"
+        },
+        {
+            "word": "50",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod"
+        }
+    ],
+    "Наиболее распространенная сумма кредита составляет около  2,8 миллиона рублей.": [
+        {
+            "word": "2,8",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod"
+        }
+    ],
+    "Площадь жилого массива эконом-класса превысит 120 тысяч квадратных метров.": [
+        {
+            "word": "120",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod"
+        }
+    ],
+    "По прогнозам мэрии, по итогам года данный показатель должен составить около 2,3 миллиона \"квадратов\".": [
+        {
+            "word": "2,3",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod"
+        }
+    ],
+    "Всего, по версии следствия, в этой схеме принимали участие 38 человек из окружения экс-президента.": [
+        {
+            "word": "38",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod"
+        }
+    ],
+    "В некоторых случаях сумма выплат достигала 10 тысяч долларов в месяц.": [
+        {
+            "word": "10",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod"
+        }
+    ],
+    "В структуре предложения около 90 процентов приходится на дома среднего класса и панельное жилье эконом-класса.": [
+        {
+            "word": "90",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod"
+        }
+    ],
+    "В октябре 2012 года спрос на рынке вторичного жилья Москвы увеличился по сравнению с сентябрем на 15,4 процента.": [
+        {
+            "word": "2012",
+            "type": "ADJ",
+            "case": "Gen",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "amod"
+        },
+        {
+            "word": "15,4",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod"
+        }
+    ],
+    "По версии следствия, топ-менеджеру удалось похитить 300 миллионов рублей.": [
+        {
+            "word": "300",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod"
+        }
+    ],
+    "За это ЦБ, основной акционер Сбербанка, получил 159 миллиардов рублей.": [
+        {
+            "word": "159",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod"
+        }
+    ],
+    "За 2011 год супруги заработали на двоих 3 миллиона 90 тысяч 395 рублей и 7 копеек.": [
+        {
+            "word": "2011",
+            "type": "ADJ",
+            "case": "Acc",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "amod"
+        },
+        {
+            "word": "3",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod"
+        },
+        {
+            "word": "90",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod"
+        },
+        {
+            "word": "395",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod"
+        },
+        {
+            "word": "7",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod"
+        }
+    ],
+    "На его счету 64 матча в Кубке Стэнли, в которых он набрал 70 (35+35) очков.": [
+        {
+            "word": "64",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod"
+        },
+        {
+            "word": "70",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nummod"
+        },
+        {
+            "word": "35+35",
+            "type": "NUM",
+            "case": "Nom",
+            "gender": "Masc",
+            "number": "Sing",
+            "deprel": "nmod"
+        }
+    ]
+}

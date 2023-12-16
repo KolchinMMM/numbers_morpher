@@ -1,0 +1,681 @@
+
+За         ADP   <╗               case
+это        PRON  ═╝<══════════╗   obl
+ЦБ         PROPN ═══════╗═╗<╗ ║   nsubj
+,          PUNCT <════╗ ║ ║ ║ ║   punct
+основной   ADJ   <══╗ ║ ║ ║ ║ ║   amod
+акционер   NOUN  ═╗═╝═╝<╝ ║ ║ ║   appos
+Сбербанка  PROPN <╝       ║ ║ ║   nmod
+,          PUNCT <════════╝ ║ ║   punct
+получил    VERB  ═════╗═════╝═╝═╗ root
+159        NUM   <╗   ║         ║ nummod
+миллиардов NOUN  ═╝<╗ ║         ║ nummod
+рублей     NOUN  ═══╝<╝         ║ obl
+.          PUNCT <══════════════╝ punct
+{
+  "id": 1,
+  "text": "За",
+  "lemma": "за",
+  "upos": "ADP",
+  "head": 2,
+  "deprel": "case",
+  "start_char": 0,
+  "end_char": 2
+}
+{
+  "id": 2,
+  "text": "это",
+  "lemma": "это",
+  "upos": "PRON",
+  "feats": "Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem",
+  "head": 9,
+  "deprel": "obl",
+  "start_char": 3,
+  "end_char": 6
+}
+{
+  "id": 3,
+  "text": "ЦБ",
+  "lemma": "ЦБ",
+  "upos": "PROPN",
+  "feats": "Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing",
+  "head": 9,
+  "deprel": "nsubj",
+  "start_char": 7,
+  "end_char": 9
+}
+{
+  "id": 4,
+  "text": ",",
+  "lemma": ",",
+  "upos": "PUNCT",
+  "head": 6,
+  "deprel": "punct",
+  "start_char": 9,
+  "end_char": 10
+}
+{
+  "id": 5,
+  "text": "основной",
+  "lemma": "основной",
+  "upos": "ADJ",
+  "feats": "Case=Nom|Degree=Pos|Gender=Masc|Number=Sing",
+  "head": 6,
+  "deprel": "amod",
+  "start_char": 11,
+  "end_char": 19
+}
+{
+  "id": 6,
+  "text": "акционер",
+  "lemma": "акционер",
+  "upos": "NOUN",
+  "feats": "Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing",
+  "head": 3,
+  "deprel": "appos",
+  "start_char": 20,
+  "end_char": 28
+}
+{
+  "id": 7,
+  "text": "Сбербанка",
+  "lemma": "Сбербанк",
+  "upos": "PROPN",
+  "feats": "Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing",
+  "head": 6,
+  "deprel": "nmod",
+  "start_char": 29,
+  "end_char": 38
+}
+{
+  "id": 8,
+  "text": ",",
+  "lemma": ",",
+  "upos": "PUNCT",
+  "head": 3,
+  "deprel": "punct",
+  "start_char": 38,
+  "end_char": 39
+}
+{
+  "id": 9,
+  "text": "получил",
+  "lemma": "получить",
+  "upos": "VERB",
+  "feats": "Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act",
+  "head": 0,
+  "deprel": "root",
+  "start_char": 40,
+  "end_char": 47
+}
+
+@@@@@@
+{
+  "id": 10,
+  "text": "159",
+  "lemma": "159",
+  "upos": "NUM",
+  "feats": "NumType=Card",
+  "head": 11,
+  "deprel": "nummod",
+  "start_char": 48,
+  "end_char": 51
+}
+@@@@@@
+
+{
+  "id": 11,
+  "text": "миллиардов",
+  "lemma": "миллиард",
+  "upos": "NOUN",
+  "feats": "Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur",
+  "head": 12,
+  "deprel": "nummod",
+  "start_char": 52,
+  "end_char": 62
+}
+{
+  "id": 12,
+  "text": "рублей",
+  "lemma": "рубль",
+  "upos": "NOUN",
+  "feats": "Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur",
+  "head": 9,
+  "deprel": "obl",
+  "start_char": 63,
+  "end_char": 69
+}
+{
+  "id": 13,
+  "text": ".",
+  "lemma": ".",
+  "upos": "PUNCT",
+  "head": 9,
+  "deprel": "punct",
+  "start_char": 69,
+  "end_char": 70
+}
+C:\Users\Mikhail\Desktop\All\Python\Project\venv\lib\site-packages\stanza\utils\conll.py:127: UserWarning: doc2conll is deprecated.  Please use "{:C}".format(doc) and use the text format directly
+  doc_conll = CoNLL.doc2conll(doc, include_comments=False)
+C:\Users\Mikhail\Desktop\All\Python\Project\venv\lib\site-packages\deplacy\deplacy.py:290: UserWarning: convert_dict is deprecated.  Please use "{:C}".format(doc) and use the text format directly
+  return CoNLL.conll_as_string(CoNLL.convert_dict(doc.to_dict()))
+C:\Users\Mikhail\Desktop\All\Python\Project\venv\lib\site-packages\deplacy\deplacy.py:290: UserWarning: conll_as_string is deprecated.  Please use "{:C}".format(doc) and use the text format directly
+  return CoNLL.conll_as_string(CoNLL.convert_dict(doc.to_dict()))
+За         ADP   <══╗         case
+2011       ADJ   <╗ ║         amod
+год        NOUN  ═╝═╝<════╗   obl
+супруги    NOUN  <══════╗ ║   nsubj
+заработали VERB  ═══╗═╗═╝═╝═╗ root
+на         ADP   <╗ ║ ║     ║ case
+двоих      NUM   ═╝<╝ ║     ║ obl
+3          NUM   <╗   ║     ║ nummod
+миллиона   NOUN  ═╝<══╝     ║ obl
+.          PUNCT <══════════╝ punct
+{
+  "id": 1,
+  "text": "За",
+  "lemma": "за",
+  "upos": "ADP",
+  "head": 3,
+  "deprel": "case",
+  "start_char": 0,
+  "end_char": 2
+}
+
+@@@@@@
+{
+  "id": 2,
+  "text": "2011",
+  "lemma": "2011",
+  "upos": "ADJ",
+  "feats": "Degree=Pos",
+  "head": 3,
+  "deprel": "amod",
+  "start_char": 3,
+  "end_char": 7
+}
+@@@@@@
+
+{
+  "id": 3,
+  "text": "год",
+  "lemma": "год",
+  "upos": "NOUN",
+  "feats": "Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing",
+  "head": 5,
+  "deprel": "obl",
+  "start_char": 8,
+  "end_char": 11
+}
+{
+  "id": 4,
+  "text": "супруги",
+  "lemma": "супруга",
+  "upos": "NOUN",
+  "feats": "Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur",
+  "head": 5,
+  "deprel": "nsubj",
+  "start_char": 12,
+  "end_char": 19
+}
+{
+  "id": 5,
+  "text": "заработали",
+  "lemma": "заработать",
+  "upos": "VERB",
+  "feats": "Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act",
+  "head": 0,
+  "deprel": "root",
+  "start_char": 20,
+  "end_char": 30
+}
+{
+  "id": 6,
+  "text": "на",
+  "lemma": "на",
+  "upos": "ADP",
+  "head": 7,
+  "deprel": "case",
+  "start_char": 31,
+  "end_char": 33
+}
+{
+  "id": 7,
+  "text": "двоих",
+  "lemma": "двое",
+  "upos": "NUM",
+  "feats": "Case=Acc|NumType=Card",
+  "head": 5,
+  "deprel": "obl",
+  "start_char": 34,
+  "end_char": 39
+}
+
+@@@@@@
+{
+  "id": 8,
+  "text": "3",
+  "lemma": "3",
+  "upos": "NUM",
+  "feats": "NumType=Card",
+  "head": 9,
+  "deprel": "nummod",
+  "start_char": 40,
+  "end_char": 41
+}
+@@@@@@
+
+{
+  "id": 9,
+  "text": "миллиона",
+  "lemma": "миллион",
+  "upos": "NOUN",
+  "feats": "Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing",
+  "head": 5,
+  "deprel": "obl",
+  "start_char": 42,
+  "end_char": 50
+}
+{
+  "id": 10,
+  "text": ".",
+  "lemma": ".",
+  "upos": "PUNCT",
+  "head": 5,
+  "deprel": "punct",
+  "start_char": 50,
+  "end_char": 51
+}
+На      ADP   <════════════════╗   case
+его     DET   <══════════════╗ ║   det
+счету   NOUN  ═════════════╗═╝═╝═╗ root
+64      NUM   <╗           ║     ║ nummod
+матча   NOUN  ═╝═══╗═════╗<╝     ║ nsubj
+в       ADP   <══╗ ║     ║       ║ case
+Кубке   PROPN ═╗═╝<╝     ║       ║ nmod
+Стэнли  PROPN <╝         ║       ║ nmod
+,       PUNCT <════════╗ ║       ║ punct
+в       ADP   <╗       ║ ║       ║ case
+которых PRON  ═╝<════╗ ║ ║       ║ obl
+он      PRON  <════╗ ║ ║ ║       ║ nsubj
+набрал  VERB  ═══╗═╝═╝═╝<╝       ║ acl:relcl
+70      NUM   <╗ ║               ║ nummod
+очков   NOUN  ═╝<╝               ║ obl
+.       PUNCT <══════════════════╝ punct
+{
+  "id": 1,
+  "text": "На",
+  "lemma": "на",
+  "upos": "ADP",
+  "head": 3,
+  "deprel": "case",
+  "start_char": 0,
+  "end_char": 2
+}
+{
+  "id": 2,
+  "text": "его",
+  "lemma": "его",
+  "upos": "DET",
+  "feats": "Poss=Yes|PronType=Prs",
+  "head": 3,
+  "deprel": "det",
+  "start_char": 3,
+  "end_char": 6
+}
+{
+  "id": 3,
+  "text": "счету",
+  "lemma": "счет",
+  "upos": "NOUN",
+  "feats": "Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing",
+  "head": 0,
+  "deprel": "root",
+  "start_char": 7,
+  "end_char": 12
+}
+
+@@@@@@
+{
+  "id": 4,
+  "text": "64",
+  "lemma": "64",
+  "upos": "NUM",
+  "feats": "NumType=Card",
+  "head": 5,
+  "deprel": "nummod",
+  "start_char": 13,
+  "end_char": 15
+}
+@@@@@@
+
+{
+  "id": 5,
+  "text": "матча",
+  "lemma": "матч",
+  "upos": "NOUN",
+  "feats": "Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing",
+  "head": 3,
+  "deprel": "nsubj",
+  "start_char": 16,
+  "end_char": 21
+}
+{
+  "id": 6,
+  "text": "в",
+  "lemma": "в",
+  "upos": "ADP",
+  "head": 7,
+  "deprel": "case",
+  "start_char": 22,
+  "end_char": 23
+}
+{
+  "id": 7,
+  "text": "Кубке",
+  "lemma": "Кубок",
+  "upos": "PROPN",
+  "feats": "Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing",
+  "head": 5,
+  "deprel": "nmod",
+  "start_char": 24,
+  "end_char": 29
+}
+{
+  "id": 8,
+  "text": "Стэнли",
+  "lemma": "Стэнли",
+  "upos": "PROPN",
+  "feats": "Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing",
+  "head": 7,
+  "deprel": "nmod",
+  "start_char": 30,
+  "end_char": 36
+}
+{
+  "id": 9,
+  "text": ",",
+  "lemma": ",",
+  "upos": "PUNCT",
+  "head": 13,
+  "deprel": "punct",
+  "start_char": 36,
+  "end_char": 37
+}
+{
+  "id": 10,
+  "text": "в",
+  "lemma": "в",
+  "upos": "ADP",
+  "head": 11,
+  "deprel": "case",
+  "start_char": 38,
+  "end_char": 39
+}
+{
+  "id": 11,
+  "text": "которых",
+  "lemma": "который",
+  "upos": "PRON",
+  "feats": "Case=Loc|PronType=Int,Rel",
+  "head": 13,
+  "deprel": "obl",
+  "start_char": 40,
+  "end_char": 47
+}
+{
+  "id": 12,
+  "text": "он",
+  "lemma": "он",
+  "upos": "PRON",
+  "feats": "Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs",
+  "head": 13,
+  "deprel": "nsubj",
+  "start_char": 48,
+  "end_char": 50
+}
+{
+  "id": 13,
+  "text": "набрал",
+  "lemma": "набрать",
+  "upos": "VERB",
+  "feats": "Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act",
+  "head": 5,
+  "deprel": "acl:relcl",
+  "start_char": 51,
+  "end_char": 57
+}
+
+@@@@@@
+{
+  "id": 14,
+  "text": "70",
+  "lemma": "70",
+  "upos": "NUM",
+  "feats": "NumType=Card",
+  "head": 15,
+  "deprel": "nummod",
+  "start_char": 58,
+  "end_char": 60
+}
+@@@@@@
+
+{
+  "id": 15,
+  "text": "очков",
+  "lemma": "очко",
+  "upos": "NOUN",
+  "feats": "Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur",
+  "head": 13,
+  "deprel": "obl",
+  "start_char": 61,
+  "end_char": 66
+}
+{
+  "id": 16,
+  "text": ".",
+  "lemma": ".",
+  "upos": "PUNCT",
+  "head": 3,
+  "deprel": "punct",
+  "start_char": 66,
+  "end_char": 67
+}
+В          ADP   <╗         case
+результате NOUN  ═╝<════╗   obl
+6          NUM   <╗     ║   nummod
+человек    NOUN  ═╝<══╗ ║   nsubj
+получили   VERB  ═══╗═╝═╝═╗ root
+ножевые    ADJ   <╗ ║     ║ amod
+ранения    NOUN  ═╝<╝     ║ obj
+.          PUNCT <════════╝ punct
+{
+  "id": 1,
+  "text": "В",
+  "lemma": "в",
+  "upos": "ADP",
+  "head": 2,
+  "deprel": "case",
+  "start_char": 0,
+  "end_char": 1
+}
+{
+  "id": 2,
+  "text": "результате",
+  "lemma": "результат",
+  "upos": "NOUN",
+  "feats": "Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing",
+  "head": 5,
+  "deprel": "obl",
+  "start_char": 2,
+  "end_char": 12
+}
+
+@@@@@@
+{
+  "id": 3,
+  "text": "6",
+  "lemma": "6",
+  "upos": "NUM",
+  "feats": "NumType=Card",
+  "head": 4,
+  "deprel": "nummod",
+  "start_char": 13,
+  "end_char": 14
+}
+@@@@@@
+
+{
+  "id": 4,
+  "text": "человек",
+  "lemma": "человек",
+  "upos": "NOUN",
+  "feats": "Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur",
+  "head": 5,
+  "deprel": "nsubj",
+  "start_char": 15,
+  "end_char": 22
+}
+{
+  "id": 5,
+  "text": "получили",
+  "lemma": "получить",
+  "upos": "VERB",
+  "feats": "Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act",
+  "head": 0,
+  "deprel": "root",
+  "start_char": 23,
+  "end_char": 31
+}
+{
+  "id": 6,
+  "text": "ножевые",
+  "lemma": "ножевой",
+  "upos": "ADJ",
+  "feats": "Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur",
+  "head": 7,
+  "deprel": "amod",
+  "start_char": 32,
+  "end_char": 39
+}
+{
+  "id": 7,
+  "text": "ранения",
+  "lemma": "ранение",
+  "upos": "NOUN",
+  "feats": "Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur",
+  "head": 5,
+  "deprel": "obj",
+  "start_char": 40,
+  "end_char": 47
+}
+{
+  "id": 8,
+  "text": ".",
+  "lemma": ".",
+  "upos": "PUNCT",
+  "head": 5,
+  "deprel": "punct",
+  "start_char": 47,
+  "end_char": 48
+}
+Всего      ADV   <══════╗   advmod
+в          ADP   <══╗   ║   case
+результате NOUN  ═╗═╝<╗ ║   obl
+взрыва     NOUN  <╝   ║ ║   nmod
+пострадал  VERB  ═══╗═╝═╝═╗ root
+41         NUM   <╗ ║     ║ nummod
+человек    NOUN  ═╝<╝     ║ nsubj
+.          PUNCT <════════╝ punct
+{
+  "id": 1,
+  "text": "Всего",
+  "lemma": "всего",
+  "upos": "ADV",
+  "feats": "Degree=Pos",
+  "head": 5,
+  "deprel": "advmod",
+  "start_char": 0,
+  "end_char": 5
+}
+{
+  "id": 2,
+  "text": "в",
+  "lemma": "в",
+  "upos": "ADP",
+  "head": 3,
+  "deprel": "case",
+  "start_char": 6,
+  "end_char": 7
+}
+{
+  "id": 3,
+  "text": "результате",
+  "lemma": "результат",
+  "upos": "NOUN",
+  "feats": "Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing",
+  "head": 5,
+  "deprel": "obl",
+  "start_char": 8,
+  "end_char": 18
+}
+{
+  "id": 4,
+  "text": "взрыва",
+  "lemma": "взрыв",
+  "upos": "NOUN",
+  "feats": "Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing",
+  "head": 3,
+  "deprel": "nmod",
+  "start_char": 19,
+  "end_char": 25
+}
+{
+  "id": 5,
+  "text": "пострадал",
+  "lemma": "страдать",
+  "upos": "VERB",
+  "feats": "Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act",
+  "head": 0,
+  "deprel": "root",
+  "start_char": 26,
+  "end_char": 35
+}
+
+@@@@@@
+{
+  "id": 6,
+  "text": "41",
+  "lemma": "41",
+  "upos": "NUM",
+  "feats": "NumType=Card",
+  "head": 7,
+  "deprel": "nummod",
+  "start_char": 36,
+  "end_char": 38
+}
+@@@@@@
+
+{
+  "id": 7,
+  "text": "человек",
+  "lemma": "человек",
+  "upos": "NOUN",
+  "feats": "Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur",
+  "head": 5,
+  "deprel": "nsubj",
+  "start_char": 39,
+  "end_char": 46
+}
+{
+  "id": 8,
+  "text": ".",
+  "lemma": ".",
+  "upos": "PUNCT",
+  "head": 5,
+  "deprel": "punct",
+  "start_char": 46,
+  "end_char": 47
+}
+
+Process finished with exit code 0
