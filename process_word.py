@@ -25,12 +25,22 @@ dict_forms = {
     "plur": "множественное число"
 }
 
+dict_stanza_to_pymorphy = {
+    "Nom": 'nomn',
+    "Gen": 'gent',
+    "Dat": 'datv',
+    "Acc": 'accs',
+    "Ins": 'ablt',
+    "Loc": 'loct'
+}
 
-def switch_case(num, case, form="masc", is_ordinal=False):
+
+def switch_case(num, case, gender, numb, tp="NUM"):
     """ Преобразует число в нужную форму.
     num - str или int, является числом, которое нужно преобразовать,
     case - падеж, form - форма числительного, может быть masc, femn, sing, plur. is_ordinal - является ли порядковым"""
 
+    case = dict_stanza_to_pymorphy[case]
     # Если число не порядковое, то оно всегда в единственном числе, иначе - ошибка
 
     # if form not in dict_forms.keys():
@@ -38,7 +48,21 @@ def switch_case(num, case, form="masc", is_ordinal=False):
     # if not is_ordinal and form == "plur":
     #     raise AttributeError("Не порядковое числительное всегда в единственном числе (sing)")
 
+    if numb == "Plur":
+        form="plur"
+    elif gender == "Masc":
+        form = "masc"
+    else:
+        form = "femn"
+
+
+    if tp == "NUM":
+        is_ordinal = False
+    else:
+        is_ordinal = True
+
     if case not in dict_cases.keys():
+        print(case)
         raise AttributeError("Неверный падеж")
 
     # Замена римского числа

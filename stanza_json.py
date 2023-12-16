@@ -295,19 +295,8 @@ def process_sentence(s):
     return arr
 
 
-def get_forms(sentences):
-    for sentence in sentences:
-        processed = nlp(sentence)
-        for s in processed.sentences:
-            for word in s.words:
-                if (word.upos == "NUM" or word.upos == "ADJ") and contains_num(word.text):
-                    yield process_num(word, s, word.deprel, word.text)
-
-
-nlp = stanza.Pipeline('ru', download_method=False, warnings=False)
-
-
 def main():
+    nlp = stanza.Pipeline('ru', download_method=False, warnings=False)
     filename = "texts/better texts dump.txt"
     filename = "specific.txt"
 

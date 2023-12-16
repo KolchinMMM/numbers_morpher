@@ -8,11 +8,11 @@ def contains_num(s):
 
 
 nlp = stanza.Pipeline('ru', download_method=False)
-filename = "specific.txt"
+filename = "wrong.txt"
 
 with open(filename, "r", encoding="utf-8") as file:
     texts = file.read().split("\n")
-
+texts = ["Экваториальная система координат имеет 2 формы: 1 и 2 экваториальные системы."]
 for se in texts:
     d = nlp(se)
     deplacy.render(d)
