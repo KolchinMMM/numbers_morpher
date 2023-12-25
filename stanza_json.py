@@ -71,6 +71,17 @@ def get_word_case(feats):
     return -1
 
 
+def has_word(words, index1, index2, arr_search):
+    start = min(index1, index2)
+    end = max(index1, index2)
+    for i in range(start, end):
+        if words[i].lemma in arr_search:
+            return True
+    return False
+
+
+
+
 def process_num(word, s, deprel, original_number):
     sentence_words = s.words
     num = get_word_number(word.feats)
@@ -150,11 +161,18 @@ def process_num(word, s, deprel, original_number):
     if word.deprel == "conj":
         if is_numeric(sentence_words[word.head - 1]):
             return process_num(sentence_words[word.head - 1], s, deprel, original_number)
-        for wrd in sentence_words:
-            if wrd.head == word.id:
-                f = get_params(wrd.feats)
-                if f != -1:
-                    return {"word": original_number, "type": word.upos, "case": f[0], "gender": f[1], "number": f[2], "deprel": deprel}
+
+        for new_word in sentence_words:
+
+            if new_word.head == word.id and new_word.upos in ["NOUN", "PROPN", "PRON"]:
+                gender = get_word_gender(new_word.feats)
+                case = get_word_case(new_word.feats)
+                numb = get_word_number(new_word.feats)
+
+                if has_word(sentence_words, new_word.id, word.id, "из"):
+                    numb = "Sing"
+
+                return {"word": original_number, "type": word.upos, "case": case, "gender": gender, "number": numb, "deprel": deprel}
 
     if word.upos == "NUM" and word.deprel == "root":
         for new_word in sentence_words:
@@ -197,9 +215,7 @@ def process_num(word, s, deprel, original_number):
                             "number": "Sing", "deprel": deprel}
         if word.head != 0:
             wrd = sentence_words[word.head - 1]
-            print(wrd)
             gender = get_word_gender(wrd.feats)
-            print(gender)
             number = get_word_number(wrd.feats)
             return {"word": original_number, "type": word.upos, "case": "Nom", "gender": gender, "number": number, "deprel": deprel}
         return {"word": original_number, "type": word.upos, "case": "Nom", "gender": "Masc", "number": "Sing", "deprel": deprel}
@@ -230,9 +246,17 @@ def process_num(word, s, deprel, original_number):
         gend = get_word_gender(new_word.feats)
         print(case)
 
-        if new_word.deprel == "nsubj":
-            return {"word": original_number, "type": "NUM", "case": "Nom", "gender": gend, "number": numb,
+        if case == "Ins":
+            return {"word": original_number, "type": "ADJ", "case": "Ins", "gender": gend, "number": numb,
                     "deprel": deprel}
+
+        if new_word.deprel == "nsubj":
+            if original_number == "1":
+                return {"word": original_number, "type": "NUM", "case": "Nom", "gender": gend, "number": numb,
+                    "deprel": deprel}
+            else:
+                return {"word": original_number, "type": "ADJ", "case": "Nom", "gender": gend, "number": numb,
+                        "deprel": deprel}
 
         if case == "Gen":
             if new_word.deprel == "nmod":
@@ -244,11 +268,22 @@ def process_num(word, s, deprel, original_number):
                             "deprel": deprel}
 
             if new_word.deprel == "obl":
-                if original_number != "1":
-                    return {"word": original_number, "type": "NUM", "case": "Nom", "gender": gend, "number": numb,
-                            "deprel": deprel}
-                return {"word": original_number, "type": "ADJ", "case": "Gen", "gender": gend, "number": numb,
-                        "deprel": deprel}
+                if original_number == "1":
+                    if numb == "Plur":
+                        return {"word": original_number, "type": "ADJ", "case": "Gen", "gender": gend, "number": numb,
+                                "deprel": deprel}
+                    else:
+                        return {"word": original_number, "type": "NUM", "case": "Gen", "gender": gend, "number": "Sing",
+                                "deprel": deprel}
+                else:
+                    if numb == "Plur":
+                        return {"word": original_number, "type": "NUM", "case": "Gen", "gender": gend, "number": "Sing",
+                                "deprel": deprel}
+                    else:
+                        return {"word": original_number, "type": "NUM", "case": "Nom", "gender": gend, "number": "Sing",
+                                "deprel": deprel}
+                    # ADJ???????
+
             return {"word": original_number, "type": "NUM", "case": "Nom", "gender": gend, "number": numb,
                     "deprel": deprel}
 
@@ -296,11 +331,16 @@ def process_num(word, s, deprel, original_number):
                     f = get_params(new_word.feats)
                     if f != -1:
                         return {"word": original_number, "type": "ADJ", "case": f[0], "gender": f[1], "number": f[2], "deprel": deprel}
+
         for new_word in sentence_words:
-            if new_word.head == word.id:
+            if new_word.head == word.id and new_word.upos in ["NOUN", "PRON", "PROPN"]:
+
                 gen = get_word_gender(new_word.feats)
                 case = get_word_case(new_word.feats)
                 num = get_word_number(new_word.feats)
+                if has_word(sentence_words, new_word.id, word.id, "из"):
+                    return {"word": original_number, "type": "NUM", "case": "Loc", "gender": gen, "number": "Sing",
+                            "deprel": deprel}
                 if case == -1:
                     case = "Nom"
                 if num == "Plur":
@@ -352,11 +392,8 @@ def process_num(word, s, deprel, original_number):
         return {"word": original_number, "type": "NUM", "case": "Nom", "gender": gen, "number": num, "deprel": deprel}
 
     if word.deprel == "orphan":
-        print("jopa")
         for new_word in sentence_words:
-            print(new_word)
             if (new_word.upos == "NUM" or new_word.upos == "ADJ") and contains_num(new_word.text):
-                print(new_word, "jopa")
                 return process_num(new_word, s, new_word.deprel, original_number)
 
     return {"word": original_number, "type": word.upos, "case": "Nom", "gender": "Masc", "number": "Sing", "deprel": deprel, "flag": "1"}
@@ -379,12 +416,14 @@ def main():
     # with open(filename, "r", encoding="utf-8") as file:
     #     texts = file.read().split("\n")
 
-    texts = ["Таких полков насчитывалось 5: Ахтырский, Изюмский, Острогожский, Сумской и Харьковский.",
-             "Мастеру не понравилось, что Робиду наклеил на кий логотип 1 из своих спонсоров.",
-             "Первоначально торговал 1, а потом с братьями Иваном и Василием."]
-    texts = [
-        "Деятельность в статусе 1 заместителя председателя партии «Нур Отан»"]
-
+    texts = """Со 2 дня Песаха ведётся отсчёт дней Омера (праздника приношения 1 колосков пшеницы).
+У Молли рождается 3 ребенок.
+Муж Минни, Уильям Смит, после ее смерти женится на Рите, еще 1 из сестер Кайл.
+Харук А.И. Истребители 2 Мировой.
+2 местом оказался низкий темп поставок нового истребителя в Европу, предлагаемый фирмой «Кёртисс», который никак не устраивал французскую сторону.
+Будучи уже устаревшим к началу 2 мировой войны, нашел ограниченное боевое применение в ВВС Соединённых Штатов.
+Дженсон Баттон наказан штрафным проездом по пит-лейн за установку 5 турбины и 5 системы рекуперации кинетической энергии
+На турнире в Хьюстоне он дебютировал в основном раунде турнира серии ATP тура, уступил в один круге американцу Райану Харрисону.""".split("\n")
     dictionary = dict()
     start = perf_counter()
     for line in texts:

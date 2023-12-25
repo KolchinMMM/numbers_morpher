@@ -9,10 +9,7 @@ def contains_num(s):
 
 
 nlp = stanza.Pipeline('ru', download_method=False)
-filename = "right.txt"
 
-with open(filename, "r", encoding="utf-8") as file:
-    texts = file.read().split("\n")
 
 with open("dir/1.json", encoding="utf-8") as file:
     things = file.read()
@@ -187,8 +184,11 @@ texts = """Панаки являлись родами от прямых пото
 Место для пункции — тело грудины на уровне 3 межреберья по средней линии или слегка отступая от средней линии вправо.
 Луций Карминий Лузитаник (лат. Lucius Carminius Lusitanicus) — римский политический деятель 2 половины I века.""".split("\n")
 
-texts = """Он предложил пересмотреть организационную структуру, в частности упразднить должность 1 заместителя председателя партии, а вместо нее ввести позицию исполнительного секретаря.
-== Деятельность в статусе 1 заместителя председателя партии «Нур Отан» ==""".split("\n")
+filename = "texts/specific.txt"
+
+with open(filename, "r", encoding="utf-8") as file:
+    texts = file.read().split("\n")
+
 for se in texts:
     d = nlp(se)
     for s in d.sentences:
@@ -202,6 +202,6 @@ for se in texts:
         # arr = s.words
         # for t in s.words:
         #     if (t.upos == "NUM") and contains_num(t.text) and t.deprel == "nummod":
-        #         if get_word_case(arr[t.head - 1].feats) == "Gen" and arr[t.head - 1].deprel == "nmod":
+        #         if get_word_case(arr[t.head - 1].feats) == "Gen" and arr[t.head - 1].deprel == "obl":
         #             print(s.text)
         #             #deplacy.render(d)
