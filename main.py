@@ -2,13 +2,9 @@ from process_word import switch_case
 import re
 import json
 
-with open("dir/1.json", encoding="utf-8") as file:
-    things = file.read()
+print(switch_case(3, "Nom", "Masc", "Sing", "NUM"))
 
-d = dict(json.loads(things))
-
-for i, v in d.items():
-    print(i, v)
-    exit()
+print(switch_case(1000, "Gen", "Masc", "Plur", "NUM"))
 
 
+# Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing"

@@ -36,6 +36,7 @@ dict_stanza_to_pymorphy = {
 
 
 def switch_case(num, case, gender, numb, tp="NUM"):
+    print(f"switch case: {num, case, gender, numb, tp}")
     """ Преобразует число в нужную форму.
     num - str или int, является числом, которое нужно преобразовать,
     case - падеж, form - форма числительного, может быть masc, femn, sing, plur. is_ordinal - является ли порядковым"""
@@ -47,14 +48,19 @@ def switch_case(num, case, gender, numb, tp="NUM"):
     #     raise AttributeError("Неверная форма числительного. Допускаются: sing, plur, femn, masc")
     # if not is_ordinal and form == "plur":
     #     raise AttributeError("Не порядковое числительное всегда в единственном числе (sing)")
+    if gender == -1:
+        gender = "Masc"
+    if numb == -1:
+        numb = "Sing"
 
     if numb == "Plur":
-        form="plur"
+        form = "plur"
     elif gender == "Masc":
         form = "masc"
-    else:
+    elif gender == "Fem":
         form = "femn"
-
+    else:
+        form = gender.lower()
 
     if tp == "NUM":
         is_ordinal = False
@@ -86,8 +92,17 @@ def switch_case(num, case, gender, numb, tp="NUM"):
     else:
         for wrd in split_word:
             wrd_morph = morph.parse(wrd)[0]
-            new_word += wrd_morph.inflect({case}).word + " "
+            morphed = wrd_morph.inflect({case, form})
+            if morphed is None:
+                morphed = wrd_morph.inflect({case})
+            new_word += morphed.word + " "
         new_word = new_word.lstrip(' ')
-
+    new_word = new_word.strip()
+    splitted = new_word.split(" ")
+    print(splitted)
+    if len(splitted) >1:
+        print(splitted[0][:2])
+        if splitted[0][:2] == "од":
+            return " ".join(splitted[1:])
     print(f"{num}: {new_word}")
     return new_word
