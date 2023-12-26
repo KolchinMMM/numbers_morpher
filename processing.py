@@ -35,7 +35,7 @@ count_correct = 0
 for correct, s in d.items():
     count += 1
     print(count)
-    if count >= 500:
+    if count >= 100:
         break
     nlpied = nlp(s)
     for sentence in nlpied.sentences:
