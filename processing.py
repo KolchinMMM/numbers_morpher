@@ -44,7 +44,6 @@ for correct, s in d.items():
         for word in sentence.words:
             if (word.upos == "NUM" or word.upos == "ADJ") and contains_num(word.text):
                 struct = process_num(word, sentence, word.deprel, word.text)
-                print(struct)
                 new_word = switch_case(word.text, struct["case"], struct["gender"], struct["number"], struct["type"])
                 new_sentence = new_sentence.replace(word.text, new_word.strip())
         print(new_sentence)

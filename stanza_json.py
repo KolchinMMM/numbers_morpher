@@ -87,7 +87,6 @@ def process_num(word, s, deprel, original_number):
     num = get_word_number(word.feats)
     case = get_word_case(word.feats)
     gender = get_word_gender(word.feats)
-    print(word.deprel)
     if case != -1:
         if num == "Plur":
             return {"word": original_number, "type": word.upos, "case": case, "gender": "Masc", "number": num, "deprel": deprel}
@@ -350,6 +349,15 @@ def process_num(word, s, deprel, original_number):
         if case == "Ins":
             return {"word": original_number, "type": "ADJ", "case": "Ins", "gender": gend, "number": numb,
                     "deprel": deprel}
+
+        if case == "Loc":
+            return {"word": original_number, "type": "ADJ", "case": "Loc", "gender": gend, "number": numb,
+                    "deprel": deprel}
+
+        if case == "Dat":
+            if numb != "Plur":
+                return {"word": original_number, "type": "ADJ", "case": "Dat", "gender": gend, "number": numb,
+                        "deprel": deprel}
 
         if case == "Gen":
             if new_word.deprel == "nmod":

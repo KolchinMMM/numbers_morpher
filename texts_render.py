@@ -23,24 +23,32 @@ filename = "texts/not_nummod.txt"
 with open(filename, "r", encoding="utf-8") as file:
     texts = file.read().split("\n")
 
-texts = ['== 2 экваториальная система координат ==']
+# texts = ["Монастырские источники утверждают что это 1 из 3 сохранившихся икон евангелиста Луки."]
 freq = dict()
 # 2 его подворья в Константинополе, Влах-Серай и монастырь Святого Георгия Кариписа на Принцевых островах.
 for se in texts:
     d = nlp(se)
     for s in d.sentences:
-        print(s.text)
-        for t in s.words:
-            if contains_num(t.text):
-                print("\n@@@@@@")
-            print(t)
-            if contains_num(t.text):
-                print("@@@@@@\n")
+        # print(s.text)
+        # for t in s.words:
+        #     if contains_num(t.text):
+        #         print("\n@@@@@@")
+        #     print(t)
+        #     if contains_num(t.text):
+        #         print("@@@@@@\n")
+
         # arr = s.words
         # for t in s.words:
-        #     if (t.upos == "NUM") and contains_num(t.text) and t.deprel == "conj":
-        #         print(s.text)
-        #         #deplacy.render(d)
+        #     if (t.upos == "NUM") and contains_num(t.text) and t.deprel == "nummod":
+        #         if get_word_case(arr[t.head - 1].feats) == "Dat":
+        #             print(s.text)
+
+        arr = s.words
+        for t in s.words:
+            if (t.upos == "NUM") and contains_num(t.text) and t.deprel == "ccomp":
+                print(s.text)
+                #deplacy.render(d)
+
         # for t in s.words:
         #     if (t.upos == "NUM") and contains_num(t.text):
         #         if t.deprel not in freq:
