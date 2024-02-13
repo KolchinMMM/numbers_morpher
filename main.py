@@ -1,10 +1,6 @@
+from stanza_json import process_num, contains_num
 from process_word import switch_case
-import re
+import stanza
 import json
 
-print(switch_case(3, "Nom", "Masc", "Sing", "NUM"))
-
-print(switch_case(1000, "Gen", "Masc", "Plur", "NUM"))
-
-
-# Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing"
+nlp = stanza.Pipeline('ru', download_method=False, warnings=False)

@@ -36,7 +36,7 @@ dict_stanza_to_pymorphy = {
 
 
 def switch_case(num, case, gender, numb, tp="NUM"):
-    print(f"switch case: {num, case, gender, numb, tp}")
+    # print(f"switch case: {num, case, gender, numb, tp}")
     """ Преобразует число в нужную форму.
     num - str или int, является числом, которое нужно преобразовать,
     case - падеж, form - форма числительного, может быть masc, femn, sing, plur. is_ordinal - является ли порядковым"""
@@ -99,10 +99,10 @@ def switch_case(num, case, gender, numb, tp="NUM"):
         new_word = new_word.lstrip(' ')
     new_word = new_word.strip()
     splitted = new_word.split(" ")
-    print(splitted)
+    #print(splitted)
     if len(splitted) >1:
-        print(splitted[0][:2])
+        #print(splitted[0][:2])
         if splitted[0][:2] == "од":
             return " ".join(splitted[1:])
-    print(f"{num}: {new_word}")
+    #print(f"{num}: {new_word}")
     return new_word

@@ -1,13 +1,12 @@
 {
-    "== 2 экваториальная система координат ==": [
+    "Во 2 части фильма.": [
         {
             "word": "2",
             "type": "NUM",
             "case": "Nom",
-            "gender": "Masc",
+            "gender": "Fem",
             "number": "Sing",
-            "deprel": "nummod:entity",
-            "flag": "1"
+            "deprel": "nummod"
         }
     ]
 }
