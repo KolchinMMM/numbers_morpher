@@ -28,8 +28,7 @@ filename = "texts/specific.txt"
 with open(filename, "r", encoding="utf-8") as file:
     texts = file.read().split("\n")
 
-texts = """Без 5 мороженных
-""".split("\n")
+texts = """12 и 13 сентября""".split("\n")
 freq = dict()
 for se in texts:
     d = nlp(se)

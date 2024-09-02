@@ -170,6 +170,14 @@ def process_num(word, s, deprel, original_number):
         number = get_word_number(sentence_words[word.head - 1].feats)
         return {"word": original_number, "type": word.upos, "case": cas, "gender": gender, "number": number, "deprel": deprel}
 
+
+    if word.upos == "ADJ":
+        for new_word in sentence_words:
+            if new_word.head == word.id:
+                if new_word.deprel == "flat":
+                    return {"word": original_number, "type": "ADJ", "case": "Gen", "gender": "Masc", "number": "Sing",
+                            "deprel": deprel}
+
     # if case != -1:
     #     if num == "Plur":
     #         return {"word": original_number, "type": word.upos, "case": case, "gender": "Masc", "number": num, "deprel": deprel}
@@ -184,8 +192,10 @@ def process_num(word, s, deprel, original_number):
         for new_word in sentence_words:
             if new_word.head == word.id and new_word.upos in ["NOUN", "PROPN", "PRON"]:
                 f = get_params(new_word.feats)
+                gender = get_word_gender(new_word.feats)
+                number = get_word_number(new_word.feats)
                 if f != -1:
-                    return {"word": original_number, "type": word.upos, "case": f[0], "gender": f[1], "number": f[2],
+                    return {"word": original_number, "type": "ADJ", "case": "Gen", "gender": gender, "number": number,
                             "deprel": deprel}
 
     # Всегда как дата
@@ -760,11 +770,14 @@ def process_num(word, s, deprel, original_number):
 
 
 def process_sentence(s):
+
     sentence_words = s.words
     arr = []
+
     for word in sentence_words:
         if (word.upos == "NUM" or word.upos == "ADJ") and contains_num(word.text):
             arr.append(process_num(word, s, word.deprel, word.text))
+
     return arr
 
 
@@ -782,6 +795,7 @@ def main():
     for line in texts:
         doc = nlp(line)
         deplacy.render(doc)
+
         for sentence in doc.sentences:
             dictionary[sentence.text] = process_sentence(sentence)
 
