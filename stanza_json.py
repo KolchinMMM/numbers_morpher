@@ -783,7 +783,7 @@ def process_sentence(s):
 
 def main():
     nlp = stanza.Pipeline('ru', download_method=False, warnings=False)
-    filename = "texts/better texts dump.txt"
+    filename = "datasets/texts/better texts dump.txt"
     filename = "specific.txt"
 
     # with open(filename, "r", encoding="utf-8") as file:

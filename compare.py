@@ -1,18 +1,11 @@
-import stanza
 import words2numsrus
-import json
-# nlp = stanza.Pipeline('ru', download_method=False, warnings=False)
+
 
 extractor = words2numsrus.NumberExtractor()
-# for match in extractor(sentence1):
-#     print(match)
-#
-# for word in sentence1.split():
-#     print(word)
-#     print(extractor(word).matches)
 
 
 def get_list_of_numerals(sentence):
+    """Возвращает список словесных числительных в предложении"""
     tokenized = []
     current_token = ""
     flag_numeral_currently = False
@@ -31,7 +24,10 @@ def get_list_of_numerals(sentence):
     return tokenized
 
 
+
 def compare(sentence1, sentence2):
+    """Ищет буквенные числительные в двух текстах и сравнивает их.
+    Возвращает количество совпадений и общее количество числительных в 1 предложении"""
     tokenized1 = get_list_of_numerals(sentence1)
     tokenized2 = get_list_of_numerals(sentence2)
     last_found_index = -1
@@ -45,11 +41,6 @@ def compare(sentence1, sentence2):
         count_all += 1
     return count_right, count_all
 
-
-
-a = "пять целых три сотых людей"
-b = "пять целых три десятых людей"
-print(compare(a, b))
 
 #
 # with open("dir/other.json", encoding="utf-8") as file:

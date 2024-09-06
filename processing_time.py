@@ -121,11 +121,11 @@ def change_diapazones(text):
 
 nlp = stanza.Pipeline('ru', download_method=False, warnings=False)
 
-f = open('big_time.csv', 'w', newline='', encoding="utf-8")
+f = open('datasets/big_time.csv', 'w', newline='', encoding="utf-8")
 writer = csv.writer(f)
 writer.writerow(["q", "a"])
 
-with open("times/big.txt", encoding="utf-8") as file:
+with open("datasets/times/big.txt", encoding="utf-8") as file:
     texts = file.read().split("\n")
 
 #

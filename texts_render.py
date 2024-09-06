@@ -23,7 +23,7 @@ nlp = stanza.Pipeline('ru', download_method=False)
 # texts = d.values()
 
 
-filename = "texts/specific.txt"
+filename = "datasets/texts/specific.txt"
 
 with open(filename, "r", encoding="utf-8") as file:
     texts = file.read().split("\n")
